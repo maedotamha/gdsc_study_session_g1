@@ -1,0 +1,7 @@
+.GroupMember{
+    list-style-type: circle;
+    list-style-type: centre;
+    background-color: rgb(38, 0, 255);
+    padding: 10px;
+    margin: 10px;
+}

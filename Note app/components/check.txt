@@ -1,0 +1,18 @@
+import {useState} from 'react'
+const Form = () =>{
+    const [maintopic, setmaintopic] = usestate("")
+    console.log(maintopic)
+    const [subtopic, setsubtopic] = usestate("")
+    const [content, setcontent] = usestate("")
+
+    return( <main>
+        <form className="note-form">
+                <h1>taking notes</h1>
+                <input type = "text" placeholder="Main Topic " className="main-topic"  />
+            
+                <button>save</button>
+                </form>
+            </main>
+            )
+}
+export default Form
